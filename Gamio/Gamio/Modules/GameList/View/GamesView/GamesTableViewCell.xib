@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GamesTableViewCell" rowHeight="176" id="KGk-i7-Jjw" customClass="GamesTableViewCell" customModule="Gamio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="413" height="176"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="176"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4y-IZ-Tna">
+                        <rect key="frame" x="10" y="10" width="94.333333333333329" height="42.666666666666664"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="n5l-CU-PJf">
+                        <rect key="frame" x="0.0" y="57.666666666666664" width="413" height="118.33333333333334"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qsf-4T-9om">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PT8-Nk-nBa">
+                        <rect key="frame" x="313.33333333333331" y="14.999999999999996" width="89.666666666666686" height="37.666666666666657"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="See All">
+                                    <attributes>
+                                        <font key="NSFont" size="21" name="ArialMT"/>
+                                        <integer key="NSUnderline" value="1"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="seeAllButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6dx-mG-Joz"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="c4y-IZ-Tna" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Auy-9U-6E1"/>
+                    <constraint firstItem="n5l-CU-PJf" firstAttribute="top" secondItem="c4y-IZ-Tna" secondAttribute="bottom" constant="5" id="EB1-yB-5H3"/>
+                    <constraint firstAttribute="trailing" secondItem="PT8-Nk-nBa" secondAttribute="trailing" constant="10" id="Iqc-ty-IrV"/>
+                    <constraint firstItem="PT8-Nk-nBa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="KHd-9s-FQJ"/>
+                    <constraint firstAttribute="bottom" secondItem="n5l-CU-PJf" secondAttribute="bottom" id="O2i-77-Glt"/>
+                    <constraint firstItem="c4y-IZ-Tna" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="g0C-M5-vOw"/>
+                    <constraint firstItem="n5l-CU-PJf" firstAttribute="top" secondItem="PT8-Nk-nBa" secondAttribute="bottom" constant="5" id="m58-pT-LWf"/>
+                    <constraint firstItem="n5l-CU-PJf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="r0i-Sb-cfg"/>
+                    <constraint firstAttribute="trailing" secondItem="n5l-CU-PJf" secondAttribute="trailing" id="tOX-qE-MEK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.090830378229999995" green="0.14496892689999999" blue="0.37649574879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <connections>
+                <outlet property="allGamesLabel" destination="c4y-IZ-Tna" id="P3O-ma-KWR"/>
+                <outlet property="collectionView" destination="n5l-CU-PJf" id="rGw-2S-aTR"/>
+                <outlet property="seeAllButton" destination="PT8-Nk-nBa" id="QVF-oL-2PR"/>
+            </connections>
+            <point key="canvasLocation" x="142.74809160305344" y="66.197183098591552"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

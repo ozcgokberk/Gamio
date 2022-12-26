@@ -1,0 +1,54 @@
+/* 
+  Localizable.strings
+  Gamio
+
+  Created by Gokberk Ozcan on 13.12.2022.
+*/
+recentGames = "En Yeni Oyunlar";
+allGames = "Oyunlar";
+topRatedGames = "2022 En Çok Oylanan Oyunlar";
+addNoteText = "Ekle";
+likeItText = "Beğen";
+releasedText = "Tarih";
+rateText = "Puan";
+metacriticText = "Metakritik";
+genresText = "Tür";
+overviewText = "Özet";
+searchBarPlaceholder = "Oyunlarda Ara";
+sortByNameTxt = "Ada Göre Sırala";
+sortByRatingCountTxt = "Oy Sayısına Göre Sırala";
+sortByReleasedTxt = "Yayınlanma Tarihine Göre Sırala";
+sortByPlaytimeTxt = "Oynama Süresine Göre Sırala";
+gameNote = "Oyun Notu";
+noteTitle = "Not";
+cancelButtonText = "Vazgeç";
+seeAllText = "Tümünü Gör";
+searchText = "Ara";
+successText = "Tebrikler";
+successContentText = "İşlem başarılı";
+errorText = "Hata";
+warningText = "Uyarı";
+confirmText = "Tamam";
+cancelText = "İptal";
+selectText = "Seçme";
+deleteText = "Silmek";
+emptyInput = "Alanlar Boş Bırakılamaz";
+doneText = "Tamamlandı";
+noteTitleText = "Not:";
+doneTitle = "Bitti";
+browseByGenreText = "Türe Göre Keşfet";
+notificationText = "Hey Oyuncu! Gel ve kendini güncel tut 🎮";
+actionText = "Aksiyon";
+adventureText = "Macera";
+casualText = "Günlük";
+fantasyText = "Fantezi";
+shooterText = "Nişancı";
+simulationText = "Simulasyon";
+backButtonTitle = "Geri";
+editText = "Düzenle";
+deleteText = "Sil";
+emptyViewText = "Görüntülenecek herhangi bir şey yok.. Hadi bir şeyler ekleyelim";
+notesText = "Notlar";
+favoritesText = "Favoriler";
+languageSettingsText = "Dil Ayarı";
+gameDetailText = "Oyun Detayı";

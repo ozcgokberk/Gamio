@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - L10n-swift (5.10.2):
+    - L10n-swift/Core (= 5.10.2)
+    - L10n-swift/Extension (= 5.10.2)
+    - L10n-swift/IBInspectable (= 5.10.2)
+  - L10n-swift/Core (5.10.2)
+  - L10n-swift/Extension (5.10.2):
+    - L10n-swift/Core
+  - L10n-swift/IBInspectable (5.10.2):
+    - L10n-swift/Core
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SwiftEntryKit (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 4.1)
+  - L10n-swift (~> 5.10)
+  - NVActivityIndicatorView
+  - SwiftEntryKit (= 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - L10n-swift
+    - NVActivityIndicatorView
+    - SwiftEntryKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  L10n-swift: 55773890db57d1efe367434751018ab6ceb058b0
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
+
+PODFILE CHECKSUM: 3dd11c833b1443986b3fe2dee6dd7085e7feeec8
+
+COCOAPODS: 1.11.3

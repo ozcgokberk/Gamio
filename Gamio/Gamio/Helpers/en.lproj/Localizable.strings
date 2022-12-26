@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Gamio
+
+  Created by Gokberk Ozcan on 13.12.2022.
+  
+*/
+recentGames = "What is New?";
+allGames = "Games";
+topRatedGames = "Top Rated Games";
+addNoteText = "Add";
+likeItText = "Like";
+releasedText = "Released";
+rateText = "Rate";
+metacriticText = "Metacritic";
+genresText = "Genres";
+overviewText = "Overview";
+sortByNameTxt = "Sort By Name";
+sortByRatingCountTxt = "Sort By Rating Count";
+sortByReleasedTxt = "Sort By Released";
+sortByPlaytimeTxt = "Sort By PlayTime";
+gameNote = "Game Note";
+noteTitle = "Note";
+cancelButtonText = "Cancel";
+seeAllText = "See All";
+searchText = "Search";
+successText = "Congrats";
+successContentText = "Operation successful";
+errorText = "Error";
+errorContentText = "Operation Failed";
+warningText = "Warning";
+confirmText = "Okey";
+cancelText = "Cancel";
+selectText = "Select";
+deleteText = "Delete";
+emptyInput = "Fields Cannot Be Empty";
+doneText = "Done";
+noteTitleText = "Note:";
+doneTitle = "Done";
+browseByGenreText = "Browse by Genre";
+notificationText = "Hello Gamer! Come and keep yourself updated 🎮";
+actionText = "Action";
+adventureText = "Adventure";
+casualText = "Casual";
+fantasyText = "Fantasy";
+shooterText = "Shooter";
+simulationText = "Simulation";
+backButtonTitle = "Back";
+editText = "Edit";
+deleteText = "Delete";
+emptyViewText = "Nothing To See Here.. Lets Add Something";
+notesText = "Notes";
+favoritesText = "Favorites";
+languageSettingsText = "Language Settings";
+gameDetailText = "Game Detail";

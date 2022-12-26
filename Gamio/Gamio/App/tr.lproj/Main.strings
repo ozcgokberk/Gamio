@@ -1,0 +1,63 @@
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "3zc-Gb-QJO"; */
+"3zc-Gb-QJO.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITabBarItem"; title = "Games"; ObjectID = "4cm-C0-9jB"; */
+"4cm-C0-9jB.title" = "Oyunlar";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "4qQ-o2-Nsb"; */
+"4qQ-o2-Nsb.title" = "Favoriler";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "5pc-3z-cHN"; */
+"5pc-3z-cHN.title" = "Notes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AQf-Ae-t03"; */
+"AQf-Ae-t03.text" = "Label";
+
+/* Class = "UILabel"; text = "Rate"; ObjectID = "CkY-TW-eyy"; */
+"CkY-TW-eyy.text" = "Rate";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EAZ-SH-Syq"; */
+"EAZ-SH-Syq.text" = "Label";
+
+/* Class = "UILabel"; text = "Genres"; ObjectID = "JYm-6O-L2a"; */
+"JYm-6O-L2a.text" = "Genres";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LlI-ne-ogi"; */
+"LlI-ne-ogi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "avr-TP-Fn6"; */
+"avr-TP-Fn6.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Notes"; ObjectID = "bps-wh-7Gj"; */
+"bps-wh-7Gj.title" = "Notes";
+
+/* Class = "UILabel"; text = "Overview"; ObjectID = "dvL-QR-vdq"; */
+"dvL-QR-vdq.text" = "Overview";
+
+/* Class = "UINavigationItem"; title = "Gamio"; ObjectID = "jbB-RC-1bL"; */
+"jbB-RC-1bL.title" = "Gamio";
+
+/* Class = "UIButton"; configuration.title = "Add Note"; ObjectID = "m55-oY-idn"; */
+"m55-oY-idn.configuration.title" = "Add Note";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m55-oY-idn"; */
+"m55-oY-idn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Like It"; ObjectID = "oyc-OL-psV"; */
+"oyc-OL-psV.configuration.title" = "Like It";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oyc-OL-psV"; */
+"oyc-OL-psV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Released"; ObjectID = "qfo-Ae-IwB"; */
+"qfo-Ae-IwB.text" = "Released";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wYu-uu-ACk"; */
+"wYu-uu-ACk.text" = "Label";
+
+/* Class = "UILabel"; text = "Metacritic"; ObjectID = "xIs-st-gpE"; */
+"xIs-st-gpE.text" = "Metacritic";
+
+/* Class = "UILabel"; text = "Text Loading..."; ObjectID = "zSf-pP-dad"; */
+"zSf-pP-dad.text" = "Text Loading...";
