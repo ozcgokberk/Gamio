@@ -16,11 +16,7 @@ class FavoritesViewController: UIViewController {
     var gameRate: Double?
     var favorites: [Favorites] = []
     
-    @IBOutlet weak var navigationTitle: UINavigationItem! {
-        didSet {
-            navigationTitle.title = "favoritesText".localized
-        }
-    }
+  
     private var viewModel: FavoritesViewModelProtocol = FavoritesViewModel()
     @IBOutlet weak var favoritesTableView: UITableView!
     
@@ -28,7 +24,6 @@ class FavoritesViewController: UIViewController {
         super.viewDidLoad()
         configureTableView()
         viewModel.delegate = self
-        addNavigationBar(title: "favoritesText".localized, presentType: .popAndShowNavBar)
     }
     
     override func viewWillAppear(_ animated: Bool) {

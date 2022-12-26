@@ -12,11 +12,6 @@ final class NotesViewController: UIViewController {
     //MARK: - Outlets
     @IBOutlet weak var notesTableView: UITableView!
     
-    @IBOutlet weak var navigationTitle: UINavigationItem! {
-        didSet {
-            navigationTitle.title = "notesText".localized
-        }
-    }
     //MARK: - Properties
     private var notes: [Notes] = []
     var id: Int?
@@ -26,7 +21,6 @@ final class NotesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTableView()
-        addNavigationBar(title: "notesText".localized, presentType: .popAndShowNavBar)
         viewModel.delegate = self
     }
     override func viewWillAppear(_ animated: Bool) {
