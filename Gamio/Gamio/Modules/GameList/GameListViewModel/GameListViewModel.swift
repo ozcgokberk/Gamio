@@ -32,7 +32,6 @@ final class GameListViewModel: GameListViewModelProtocol {
     func fetchGames() {
         GameDBClient.getGames { [weak self] games, error in
             guard let self = self else { return }
-            self.games = games
             self.delegate?.gamesLoaded(gamesArray: games)
         }
     }
@@ -40,7 +39,6 @@ final class GameListViewModel: GameListViewModelProtocol {
     func getMostRatedGames() {
         GameDBClient.getMostRatedGames { [weak self] topRatedGames, error in
             guard let self = self else { return }
-            self.topRatedGames = topRatedGames
             self.delegate?.topRatedGamesLoaded(topRatedGames: topRatedGames)
         }
     }
@@ -48,7 +46,6 @@ final class GameListViewModel: GameListViewModelProtocol {
     func getLatestGames() {
         GameDBClient.getLatestGames { [weak self] latestGames, error in
             guard let self = self else { return }
-            self.latestGames = latestGames
             self.delegate?.latesGamesLoaded(latestGames: latestGames)
         }
     }

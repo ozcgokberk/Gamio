@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Notes View Controller-->
+        <!--Notes-->
         <scene sceneID="Mfw-4o-q8z">
             <objects>
                 <viewController storyboardIdentifier="NotesViewController" id="dDf-zq-i6B" customClass="NotesViewController" customModule="Gamio" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,8 +42,9 @@
                             <constraint firstItem="eoK-BV-z5Q" firstAttribute="leading" secondItem="669-Zh-rSq" secondAttribute="leading" constant="16" id="aws-hT-B0b"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="bps-wh-7Gj"/>
+                    <navigationItem key="navigationItem" title="Notes" id="bps-wh-7Gj"/>
                     <connections>
+                        <outlet property="navigationTitle" destination="bps-wh-7Gj" id="rKw-zI-hLu"/>
                         <outlet property="notesTableView" destination="eoK-BV-z5Q" id="ts9-uy-39y"/>
                     </connections>
                 </viewController>
@@ -104,7 +105,7 @@
             </objects>
             <point key="canvasLocation" x="-3610" y="910"/>
         </scene>
-        <!--Favorites View Controller-->
+        <!--Favorites-->
         <scene sceneID="rZA-zg-2Wt">
             <objects>
                 <viewController storyboardIdentifier="FavoritesViewController" id="LbA-tg-DbU" customClass="FavoritesViewController" customModule="Gamio" customModuleProvider="target" sceneMemberID="viewController">
@@ -126,9 +127,10 @@
                             <constraint firstItem="Oou-IY-JhQ" firstAttribute="leading" secondItem="d2K-6R-JFi" secondAttribute="leading" id="rN1-SH-6gg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Lwn-hg-nWf"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="Lwn-hg-nWf"/>
                     <connections>
                         <outlet property="favoritesTableView" destination="Oou-IY-JhQ" id="1Wq-iP-PAF"/>
+                        <outlet property="navigationTitle" destination="Lwn-hg-nWf" id="KMk-AZ-5rc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQy-fB-b44" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
